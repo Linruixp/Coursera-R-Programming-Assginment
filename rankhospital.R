@@ -11,7 +11,7 @@ rankhospital <- function(state, outcome, num = "best") {
       stop("invalid outcome")  
   }
   
-  ## Select the proper outcome columne to order
+  ## Select the proper outcome columne for ordering
   if ( m %in% c("heartfailure")) j <- 17
   if ( m %in% c("heartattack")) j <- 11
   if ( m %in% c("pneumonia")) j <- 23
